@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Forms Project</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="/action_page.php">
+    <div class="container">
+        <div class="column">
+            <div>
+                <label for="firstname">FIRST NAME</label><br>
+                <input type="text" name="first_name" value="" placeholder="First Name">
+            </div>
+            <div>
+                <label for="lastname">LAST NAME</label><br>
+                <input type="text" name="last_name" value="" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="email">EMAIL ADDRESS</label><br>
+                <input type="email" name="email" value="" placeholder="Email Address">
+            </div>
+            <div>
+                <label for="country">COUNTRY</label><br>
+                <select name="country">
+                    <option value="option1">Choose a country</option>
+                    <option value="option2">Option 1</option>
+                    <option value="option3">Option 2</option>
+                    <option value="option4">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="biography">BIOGRAPHY</label><br>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <label for="phone">PHONE NUMBER</label><br>
+                <input type="text" name="phone_number" value="" placeholder="+555-872-5555">
+            </div>
+            <div>
+                <label for="affiliation">AFFILIATION</label><br>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
+            </div>
+            <div>
+                <label for="occupation">OCCUPATION</label><br>
+                <select name="occupation">
+                    <option value="option1">Choose an occupation</option>
+                    <option value="option2">Option 1</option>
+                    <option value="option3">Option 2</option>
+                    <option value="option4">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="catname">CAT'S NAME</label><br>
+                <input type="text" name="cats_name" value="" placeholder="Cat's Name">
+            </div>
+            <div>
+                <label for="gadget">FAVORITE GADGET</label><br>
+                <input type="text" name="favorite_gadget" value="" placeholder="Favorite Gadget">
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <label for="talent">TYPE OF TALENT</label><br>
+                <select name="talent">
+                    <option value="option1">Choose a talent</option>
+                    <option value="option2">Option 1</option>
+                    <option value="option3">Option 2</option>
+                    <option value="option4">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="drink">FAVORITE DRINK</label><br>
+                <input type="text" name="favorite_drink" value="" placeholder="Favorite Drink">
+            </div>
+            <div>
+                <label for="power">SPECIAL POWER</label><br>
+                <input type="text" name="special_power" value="" placeholder="Special Power">
+            </div>
+            <div>
+                <label for="weapon">WEAPON OF CHOICE</label><br>
+                <input type="text" name="weapon_of_choice" value="" placeholder="Your weapon">
+            </div>
+            <div>
+                <label for="comments">COMMENTS</label><br>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
+            </div>
+            <br>
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </div>
+    </div> 
+    </form>
+</body>
+</html>
